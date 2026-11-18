@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 
-/* En el diseño el título de esta sección va todo en naranja */
+
 .titulo-naranja {
   color: var(--naranja);
 }
@@ -79,7 +79,7 @@
   margin: -6px 0 20px;
 }
 
-/* Botón naranja ancho (Llamar ahora y Enviar mensaje) */
+
 .btn-naranja {
   margin-top: auto;
   width: 100%;
@@ -145,12 +145,12 @@
   background: var(--blanco);
 }
 
-/* Campo marcado cuando falta información */
+
 .formulario .con-error {
   border-color: #dc2626;
 }
 
-/* Casilla para aceptar el Aviso de privacidad */
+
 .casilla-acepta {
   display: flex;
   align-items: flex-start;
@@ -197,7 +197,7 @@
   color: #b42318;
 }
 
-/* RESPONSIVO EN TABLETA Y CELULAR */
+
 @media screen and (max-width: 860px) {
   .grid-contacto {
     grid-template-columns: 1fr;

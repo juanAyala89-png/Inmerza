@@ -9,7 +9,7 @@ const datosIniciales = {
   acepta: false,
 };
 
-// Revisa que los campos obligatorios estén llenos y con el formato correcto
+
 function validar(datos) {
   const errores = {};
 
@@ -63,7 +63,7 @@ function Formulario() {
     setEstado("enviando");
 
     try {
-      // Envío con Netlify Forms (funciona cuando la página está publicada en Netlify)
+     
       const respuesta = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },

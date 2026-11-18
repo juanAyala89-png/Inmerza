@@ -20,7 +20,7 @@
   z-index: -2;
 }
 
-/* Capa azul para que el texto blanco se lea mejor */
+
 .hero::after {
   content: "";
   position: absolute;
@@ -64,14 +64,14 @@
   flex-wrap: wrap;
 }
 
-/* RESPONSIVO EN TABLETA */
+
 @media screen and (max-width: 1024px) {
   .header-title {
     font-size: 52px;
   }
 }
 
-/* RESPONSIVO EN CELULARES */
+
 @media screen and (max-width: 768px) {
   .hero {
     min-height: 560px;

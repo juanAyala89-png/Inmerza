@@ -4,7 +4,7 @@ import ProyectosIngenieria from "../assets/ProyectosIngenieria.png";
 import TarjetaServicio from "./TarjetaServicio.js";
 import "./Servicios.css";
 
-// Información de cada servicio. Para agregar uno nuevo solo se añade aquí.
+
 const servicios = [
   {
     titulo: "Brigadas de emergencia",

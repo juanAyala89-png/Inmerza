@@ -1,4 +1,4 @@
-// Tarjeta reutilizable: recibe el título, la imagen y la lista de subservicios
+
 function TarjetaServicio({ titulo, imagen, lista }) {
   return (
     <article className="tarjeta-servicio">

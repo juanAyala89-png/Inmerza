@@ -10,7 +10,7 @@ import TerminosCondiciones from "./components/TerminosCondiciones.js";
 import AvisoPrivacidad from "./components/AvisoPrivacidad.js";
 
 function App() {
-  // Guardamos la parte de la URL después del "#" para saber qué mostrar
+  
   const [ruta, setRuta] = useState(window.location.hash);
 
   useEffect(() => {
@@ -19,8 +19,7 @@ function App() {
     return () => window.removeEventListener("hashchange", cambiarRuta);
   }, []);
 
-  // Cada vez que cambia la ruta: en las páginas legales subimos al inicio,
-  // y en la página principal bajamos a la sección indicada (#servicios, etc.)
+  
   useEffect(() => {
     if (ruta === "#terminos" || ruta === "#privacidad") {
       window.scrollTo(0, 0);

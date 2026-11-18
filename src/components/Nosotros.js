@@ -16,7 +16,7 @@ function Nosotros() {
         garantizar la seguridad de su personal.
       </p>
 
-      {/* BLOQUE MISIÓN (Imagen a la izquierda, Texto a la derecha) */}
+      {/* BLOQUE MISIÓN  */}
       <div className="bloque-filas">
         <div className="columna-imagen">
           <img src={misionInmerza} alt="Brigada de Inmerza en capacitación" />
@@ -33,7 +33,7 @@ function Nosotros() {
         </div>
       </div>
 
-      {/* BLOQUE VISIÓN (Texto a la izquierda, Imagen a la derecha) */}
+      {/* BLOQUE VISIÓN */}
       <div className="bloque-filas reverso">
         <div className="columna-texto texto-derecha">
           <h3>VISIÓN</h3>

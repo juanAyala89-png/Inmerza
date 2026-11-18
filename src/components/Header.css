@@ -59,7 +59,7 @@
   background-color: var(--naranja-hover);
 }
 
-/* Botón de menú (solo se ve en celular y tableta) */
+
 .btn-menu {
   display: none;
   background: none;
@@ -70,7 +70,7 @@
   padding: 4px;
 }
 
-/* RESPONSIVO EN TABLETA Y CELULAR */
+
 @media screen and (max-width: 900px) {
   .navbar-container {
     top: 16px;
@@ -84,7 +84,7 @@
     display: flex;
   }
 
-  /* El menú se vuelve una lista que baja debajo de la barra */
+
   .nav-botones {
     display: none;
     position: absolute;

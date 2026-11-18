@@ -14,7 +14,7 @@
   gap: 24px;
 }
 
-/* El logo se pone en blanco para que se vea sobre el fondo azul */
+
 .footer-logo {
   width: 170px;
   filter: brightness(0) invert(1);
@@ -47,7 +47,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* RESPONSIVO EN CELULARES */
+
 @media screen and (max-width: 600px) {
   .footer-contenido {
     flex-direction: column;

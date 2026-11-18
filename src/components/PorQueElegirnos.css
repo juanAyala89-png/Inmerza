@@ -42,7 +42,7 @@
   color: var(--gris-texto);
 }
 
-/* RESPONSIVO EN CELULARES: 1 tarjeta por fila */
+/* RESPONSIVO EN CELULARES*/
 @media screen and (max-width: 768px) {
   .elegirnos {
     padding: 60px 20px;

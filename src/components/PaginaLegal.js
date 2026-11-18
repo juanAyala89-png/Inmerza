@@ -1,8 +1,7 @@
 import datosLegales from "../datosLegales.js";
 import "./PaginaLegal.css";
 
-// Contenedor reutilizable para las páginas legales
-// (Términos y condiciones y Aviso de privacidad)
+
 function PaginaLegal({ titulo, children }) {
   return (
     <section className="pagina-legal">
